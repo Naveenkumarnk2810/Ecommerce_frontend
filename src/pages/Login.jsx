@@ -113,12 +113,12 @@ const Login = () => {
                         <Link to={"/forgot-password"} className='block ml-auto hover:text-primary-200'>Forgot password ?</Link>
                     </div>
     
-                    <button disabled={!valideValue} className={` ${valideValue ? "bg-green-800 hover:bg-green-700" : "bg-gray-500" }    text-white py-2 rounded font-semibold my-3 tracking-wide`}>Login</button>
+                    <button disabled={!valideValue} className={` ${valideValue ? "bg-gradient-to-r from-[#C6003A] to-[#FEC131]" : "bg-gray-500" }    text-white py-2 rounded font-semibold my-3 tracking-wide`}>Login</button>
 
                 </form>
 
                 <p>
-                    Don't have account? <Link to={"/register"} className='font-semibold text-green-700 hover:text-green-800'>Register</Link>
+                    Don't have account? <Link to={"/register"} className='font-semibold text-[#FEC131] hover:text-[#C6003A]'>Register</Link>
                 </p>
             </div>
         </section>
